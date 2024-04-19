@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Lemny</nume>
+        <prenume>Erich</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <numar>1776</numar>
+            <localitate>Botosani</localitate>
+            <judet>Botosani</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>Liceu</studii>
+        <experienta>0 ani</experienta>
+    </persoana>
+    <persoana id="2">
+        <nume>Adrian</nume>
+        <prenume>Minune</prenume>
+        <varsta>32</varsta>
+        <adresa>
+            <numar>1376</numar>
+            <localitate>Bucuresti</localitate>
+            <judet>Bucuresti</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>Liceu</studii>
+        <experienta>10 ani</experienta>
+    </persoana>
+</persoane>

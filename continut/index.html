@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/stil.css" />
+    <meta charset="UTF-8" />
+    <title>Acasă</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Pagina principală</h1>
+    </header>
+    <nav id="rcorners2">
+      <p>
+        <a onclick="schimbaContinut('acasa')">Acasă: </a>
+        Înapoi la pg. principală.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a onclick="schimbaContinut('invat')">Învăț: </a>
+        Învață ceva.
+      </p>
+      <p>
+        <a onclick="schimbaContinut('inregistreaza')">Înregistreaza-te: </a>
+        Fă-ți cont.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a onclick="schimbaContinut('video')"> Video: </a>
+        Vezi videoclipuri.
+      </p>
+      <p>
+        <a onclick="schimbaContinut('desen')"> Desene: </a>
+        Desene și fun-facts.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a onclick="schimbaContinut('despre')"> Despre: </a>
+        Despre autorul paginii.
+      </p>
+      <p>
+        <a
+          onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')"
+          >Persoane:
+        </a>
+        Diverși artiști.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a onclick="schimbaContinut('verifica')"> Verifică: </a>
+        Verifica contul.
+      </p>
+      <p>
+        <a onclick="schimbaContinut('cumparaturi', 'js/cumparaturi.js')"
+          >Magazin:
+        </a>
+        Cumpără.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+    </nav>
+    <main id="continut"></main>
+    <footer>
+      <hr />
+      <span>&copy 2023 Erich21&reg;</span>
+    </footer>
+  </body>
+</html>

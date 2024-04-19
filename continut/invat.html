@@ -1,0 +1,38 @@
+<aside>
+  <p><a href="#date">Datele tale</a></p>
+  <p><a href="#desene">Să desenăm</a></p>
+  <p><a href="#clasament">Crează colecție</a></p>
+</aside>
+<section id="date">
+  <h1>Datele tale</h1>
+  <h2>Știu unde ești :D</h2>
+  <p id="locatie" onload="getLocation()">
+    Locația ta este:<br />Latitudine:<br />Longitudine:
+  </p>
+  <p id="limba" onload="getLanguage()">Limba browserului:</p>
+  <p id="timp" onload="getTime()">Timpul este:</p>
+  <p id="brouser" onload="getBrowser()">Browser:</p>
+</section>
+<section id="desene">
+  <h1>Să desenăm</h1>
+  <p>Hai să desenăm</p>
+  <canvas id="desen" onclick="Draw(event)" width="300" height="150"></canvas
+  ><br />
+  <label for="conturColor">Culoare contur:</label>
+  <input type="color" id="conturColor" name="conturColor" /><br />
+  <label for="formaColor">Culoare formă:</label>
+  <input type="color" id="formaColor" name="formaColor" /><br />
+</section>
+<section id="clasament">
+  <h1>Crează-ți propria colecție</h1>
+  <div id="album-table"></div>
+  <label for="nartist">Nume artist:</label>
+  <input type="text" id="nartist" name="nartist" /><br />
+  <label for="nalbum">Nume album:</label>
+  <input type="text" id="nalbum" name="nalbum" /><br />
+  <label for="index">La poziția:</label>
+  <input type="number" id="index" name="index" /><br />
+  <label for="albumColor">Culoare:</label>
+  <input type="color" id="albumColor" name="albumColor" /><br />
+  <button onclick="insertAlbum(index)">Inserează</button>
+</section>

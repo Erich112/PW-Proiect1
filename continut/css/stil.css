@@ -1,0 +1,127 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: rgb(4, 0, 87);
+}
+
+nav {
+  background-image: linear-gradient(to right, rgb(255, 207, 207), yellow);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+nav p {
+  color: rgb(9, 93, 0);
+}
+
+body {
+  padding: 20px;
+  margin-top: 160px;
+  background-color: #e0fff9;
+}
+
+form.Register {
+  color: rgb(72, 0, 46);
+}
+
+table {
+  border: 2px solid;
+  color: blue;
+  padding: 5px;
+}
+
+table td {
+  color: rgb(0, 0, 37);
+  padding: 5px;
+  border: 1px solid;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00ad0e;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 10px;
+  width: 35%;
+  height: 180px;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+body.homes {
+  padding: 20px;
+  margin-top: 0px !important;
+  background-color: #e0fff9;
+}
+
+canvas {
+  border: 1px solid grey;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media print and (min-width: 480px) {
+  #nav {
+    position: hidden;
+  }
+  #body {
+    padding: 5px;
+    margin-top: 100px;
+  }
+}
