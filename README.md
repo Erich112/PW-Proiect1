@@ -1,3 +1,3 @@
 # PW-Proiect1
 
-Site web single-page, cu server in Python, in mare parte facut pentru a arata cateva functionalitati HTML, CSS, JS/ AJAX.
+Site web single-page, cu server în Python, în mare parte făcut pentru a arăta câteva functionalități HTML, CSS, JS/ AJAX.
